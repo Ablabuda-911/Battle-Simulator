@@ -1,0 +1,45 @@
+.logContainer {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #00d4ff;
+  border-radius: 10px;
+  padding: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.logContainer h3 {
+  margin-bottom: 15px;
+  color: #00ff00;
+}
+
+.logContent {
+  font-size: 0.9em;
+  font-family: 'Courier New', monospace;
+}
+
+.empty {
+  color: #666;
+  text-align: center;
+  padding: 20px;
+}
+
+.logEntry {
+  padding: 8px;
+  margin-bottom: 8px;
+  background: rgba(0, 212, 255, 0.05);
+  border-left: 3px solid #00d4ff;
+  display: flex;
+  gap: 10px;
+}
+
+.round {
+  font-weight: bold;
+  color: #ffaa00;
+  min-width: 40px;
+}
+
+.event {
+  color: #00d4ff;
+  flex: 1;
+}
